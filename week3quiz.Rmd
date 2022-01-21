@@ -1,8 +1,11 @@
 ---
-title: "R Notebook"
+title: "Week 3 Quiz"
 output:
+  word_document: default
   pdf_document: default
   html_notebook: default
+  html_document:
+    df_print: paged
 ---
 
 **QUESTION 1**
