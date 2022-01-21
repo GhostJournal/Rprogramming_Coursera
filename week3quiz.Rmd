@@ -1,6 +1,8 @@
 ---
 title: "R Notebook"
-output: html_notebook
+output:
+  pdf_document: default
+  html_notebook: default
 ---
 
 **QUESTION 1**
@@ -14,6 +16,9 @@ There will be an object called 'iris' in your workspace. In this dataset, what i
 
 **Solution**
 
+> 7
+
+For the solution we can use any of the following codes
 ```{r}
 mean(iris$Sepal.Length[iris$Species=="virginica"])
 ```
@@ -66,12 +71,16 @@ Continuing with the 'mtcars' dataset from the previous Question, what is the abs
 
 
 **Solution**
+
+> 127
+
+for solution we can use any equations used in equation 1 or 3.
+
+eg.
 ```{r}
 mean(mtcars$hp[mtcars$cyl=="8"]) - mean(mtcars$hp[mtcars$cyl=="4"])
 ```
-or
 
-> we can use any equations used in equation 1 or 3.
 
 ***
 
